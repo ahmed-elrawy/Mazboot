@@ -1,0 +1,14 @@
+#home-section {
+  position: relative;
+
+  background-color: #343a40;
+
+    background: url(../../assets/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+    padding-top: 11rem;
+    padding-bottom: 8rem;
+  }
+

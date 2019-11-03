@@ -1,0 +1,24 @@
+<div class="container">
+    <h1 class="  mt-2 text-center display-4  ">EVENTS</h1>
+
+    <div class="row ">
+
+        <div class="row">
+
+            <div class="col-4" *ngFor="let con of conferences">
+                <div class="p-4 item-hl">
+                    <div class="card text-center" style="width: 18rem;">
+                        <img src="../../assets/bg-masthead.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Event {{con.id}}</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the
+                                card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
