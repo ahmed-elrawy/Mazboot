@@ -29,7 +29,7 @@ export class HomeComponent implements OnInit {
       this.loaddingService.isLoading.next(false)
       console.log(form.value.select)
       this.parentMessage = form.value.select
-    }, 3000)
+    }, 2000)
 
   }
 
