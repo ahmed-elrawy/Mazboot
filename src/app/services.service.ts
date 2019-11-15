@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Data } from './core/data.model';
 
 @Injectable({
   providedIn: 'root'
@@ -7,7 +8,7 @@ export class ServicesService {
 
   constructor() { }
 
-  public conferences: object[][] = [
+  public conferences: Data[][] = [
     [
       { id: 1, name: "one", content: "We would very much like to hear your thoughts and ideas and tell you more about how we can help you. Contact us below" },
       { id: 2, name: "tow", content: "We would very much like to hear your thoughts and ideas and tell you more about how we can help you. Contact us below" },
